@@ -1,0 +1,76 @@
+[project]
+name = "cliniq"
+version = "0.1.0"
+description = "Explainable 30-day readmission risk for diabetes patients with evidence-grounded narratives"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fairlearn>=0.11",
+    "joblib>=1.4",
+    "lightgbm>=4.3",
+    "matplotlib>=3.8",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "pyarrow>=16.0",
+    "rank-bm25>=0.2.2",
+    "requests>=2.31",
+    "scikit-learn>=1.5",
+    "shap>=0.45",
+]
+
+[project.optional-dependencies]
+notebooks = [
+    "ipykernel>=6.29",
+    "jupyter>=1.0",
+    "jupytext>=1.16",
+    "seaborn>=0.13",
+    "xgboost>=2.0",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.10",
+    "pre-commit>=3.7",
+    "pytest>=8.0",
+    "ruff>=0.6",
+    "types-requests>=2.31",
+]
+
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cliniq"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = ["notebooks", "private"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "NPY"]
+ignore = [
+    "E501",    # long strings/URLs; the formatter handles code wrapping
+    "SIM300",  # flags `array >= scalar` comparisons as Yoda conditions
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["cliniq", "evals"]
+
+[tool.mypy]
+python_version = "3.11"
+files = ["src"]
+ignore_missing_imports = true
+check_untyped_defs = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra --import-mode=importlib"
+markers = ["integration: needs processed data and a trained model (run `make pipeline`)"]
+filterwarnings = [
+    "ignore:LightGBM binary classifier with TreeExplainer shap values output has changed:UserWarning",
+]

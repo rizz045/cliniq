@@ -1,0 +1,67 @@
+# ---------------------------------------------------------------------------
+# Data: never committed. `make data` downloads the official UCI release and
+# verifies its checksum; everything else is rebuilt by the pipeline.
+# ---------------------------------------------------------------------------
+data/raw/
+data/processed/
+data/corpus/chunks.jsonl
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.zip
+*.gz
+
+# Model artifacts (rebuilt by `make train`)
+models/
+*.joblib
+*.pkl
+*.pickle
+*.onnx
+*.pt
+*.h5
+mlruns/
+
+# Local-only material, kept out of the public repo
+notebooks/
+private/
+scratch/
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local config
+.env
+.env.*
+
+# Tooling caches and reports
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db

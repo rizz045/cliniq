@@ -1,0 +1,52 @@
+{
+  "n_test_encounters": 14867,
+  "n_test_patients": 10567,
+  "base_rate": 0.10970606040223313,
+  "auroc": 0.6668403981190217,
+  "auroc_ci95": [
+    0.6516461719694121,
+    0.6818089291232649
+  ],
+  "auprc": 0.21064413367068488,
+  "auprc_ci95": [
+    0.1892018634116973,
+    0.23346661298247898
+  ],
+  "brier_raw": 0.21863937285658053,
+  "brier_calibrated": 0.0936880060533262,
+  "brier_skill_score": 0.04077617010439083,
+  "operating_points": [
+    {
+      "flag_rate": 0.1,
+      "n_flagged": 1486,
+      "readmissions_caught": 367,
+      "recall_at_flag_rate": 0.22501532801961988,
+      "precision_at_flag_rate": 0.24697173620457605
+    },
+    {
+      "flag_rate": 0.2,
+      "n_flagged": 2973,
+      "readmissions_caught": 600,
+      "recall_at_flag_rate": 0.3678724708767627,
+      "precision_at_flag_rate": 0.20181634712411706
+    },
+    {
+      "flag_rate": 0.3,
+      "n_flagged": 4460,
+      "readmissions_caught": 813,
+      "recall_at_flag_rate": 0.4984671980380135,
+      "precision_at_flag_rate": 0.18228699551569508
+    }
+  ],
+  "baseline_logistic_regression_auroc": 0.655971238724479,
+  "outreach_threshold": {
+    "target_flag_rate": 0.2,
+    "raw_score_threshold": 0.5807944741558275,
+    "calibrated_risk_at_threshold": 0.14954954954954958,
+    "chosen_on": "validation",
+    "realized_flag_rate_val": 0.19994764055239217,
+    "realized_flag_rate_test": 0.1870585861303558,
+    "recall_test": 0.3464132434089516,
+    "precision_test": 0.20316432937792162
+  }
+}

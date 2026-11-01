@@ -1,0 +1,22 @@
+{
+  "bm25": {
+    "method": "bm25",
+    "mrr": 0.814,
+    "recall@3": 0.8,
+    "recall@5": 0.825,
+    "precision@3": 0.333,
+    "precision@5": 0.21
+  },
+  "tfidf": {
+    "method": "tfidf",
+    "mrr": 0.797,
+    "recall@3": 0.8,
+    "recall@5": 0.825,
+    "precision@3": 0.333,
+    "precision@5": 0.21
+  },
+  "_meta": {
+    "n_queries": 20,
+    "n_chunks": 30
+  }
+}

@@ -1,0 +1,20 @@
+{"query": "what happens if a diabetic patient misses their follow-up appointment after discharge", "relevant_chunk_ids": ["karunakaran_2018_0"]}
+{"query": "how much does a recent hospital discharge in the last 90 days raise readmission risk", "relevant_chunk_ids": ["karunakaran_2018_1", "drc_2016_e000160_2"]}
+{"query": "does leaving the hospital against medical advice increase readmission risk", "relevant_chunk_ids": ["karunakaran_2018_2", "engagement_2013_2"]}
+{"query": "how does extreme blood glucose during a hospital stay relate to readmission", "relevant_chunk_ids": ["karunakaran_2018_3"]}
+{"query": "does a longer hospital stay increase the chance of readmission", "relevant_chunk_ids": ["karunakaran_2018_4", "singapore_2023_3"]}
+{"query": "what percent of hospitalized diabetes patients have an early readmission or ER visit", "relevant_chunk_ids": ["wei_2013_0"]}
+{"query": "does intensifying diabetes medication in the hospital cause more readmissions", "relevant_chunk_ids": ["wei_2013_1"]}
+{"query": "are patients with poorly controlled blood sugar helped by medication intensification", "relevant_chunk_ids": ["wei_2013_2"]}
+{"query": "what is the overall 30-day ER or hospital readmission rate for diabetes patients", "relevant_chunk_ids": ["drc_2016_e000160_0"]}
+{"query": "how many emergency room visits does hypoglycemia cause each year", "relevant_chunk_ids": ["drc_2016_e000160_1"]}
+{"query": "are young adults with diabetes at higher risk of readmission", "relevant_chunk_ids": ["drc_2016_e000160_3"]}
+{"query": "which comorbidities most strongly predict diabetes readmission", "relevant_chunk_ids": ["drc_meta_2020_e001227_1"]}
+{"query": "is insulin therapy associated with higher hospital readmission", "relevant_chunk_ids": ["drc_meta_2020_e001227_1", "drc_meta_2020_e001227_2"]}
+{"query": "how many studies were included in the readmission predictors meta-analysis", "relevant_chunk_ids": ["drc_meta_2020_e001227_0"]}
+{"query": "does renal disease increase the number of diabetes readmissions", "relevant_chunk_ids": ["singapore_2023_0"]}
+{"query": "how much does each extra emergency department visit raise expected readmissions", "relevant_chunk_ids": ["singapore_2023_1", "engagement_2013_0"]}
+{"query": "how does age affect the number of diabetes readmissions", "relevant_chunk_ids": ["singapore_2023_2"]}
+{"query": "does visiting primary care often or never change hospitalization risk", "relevant_chunk_ids": ["engagement_2013_1"]}
+{"query": "why do hospitals face financial penalties for high readmission rates", "relevant_chunk_ids": ["cms_hrrp_0", "cms_hrrp_4"]}
+{"query": "which medical conditions are tracked by the hospital readmissions reduction program", "relevant_chunk_ids": ["cms_hrrp_3"]}

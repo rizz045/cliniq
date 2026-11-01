@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint-and-unit:
+    name: Lint, types, unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - run: uv sync --locked
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run mypy
+      - run: uv run pytest tests/unit
+
+  pipeline:
+    name: End-to-end pipeline + integration tests
+    needs: lint-and-unit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - run: uv sync --locked
+      - name: Cache UCI dataset
+        uses: actions/cache@v4
+        with:
+          path: data/raw
+          key: uci-296-v1
+      - name: Build data, train, audit, build corpus
+        run: |
+          uv run python -m cliniq.data_prep
+          uv run python -m cliniq.risk_model
+          uv run python -m cliniq.fairness_audit
+          uv run python -m cliniq.rag.build_corpus
+      - name: Evals + full test suite
+        env:
+          CLINIQ_REQUIRE_ARTIFACTS: "1"
+        run: uv run python -m evals.run_all
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reports
+          path: reports/

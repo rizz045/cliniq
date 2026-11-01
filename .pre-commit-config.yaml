@@ -1,0 +1,39 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-toml
+      - id: check-json
+      - id: check-merge-conflict
+      - id: detect-private-key
+      - id: check-added-large-files
+        args: ["--maxkb=500"]
+        exclude: ^uv\.lock$
+
+  - repo: local
+    hooks:
+      # Use the project's locked ruff/mypy versions so hooks match CI exactly.
+      - id: ruff-check
+        name: ruff check
+        entry: uv run ruff check --fix
+        language: system
+        types: [python]
+      - id: ruff-format
+        name: ruff format
+        entry: uv run ruff format
+        language: system
+        types: [python]
+      - id: mypy
+        name: mypy
+        entry: uv run mypy
+        language: system
+        types: [python]
+        pass_filenames: false
+      - id: forbid-data-and-model-files
+        name: block data and model artifacts
+        entry: Data and model files must not be committed; the pipeline regenerates them.
+        language: fail
+        files: '\.(csv|tsv|parquet|feather|joblib|pkl|pickle|onnx|pt|h5|zip)$'

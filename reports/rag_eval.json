@@ -1,0 +1,1750 @@
+{
+  "summary": {
+    "provider": "TemplateProvider",
+    "n_patients": 40,
+    "pct_grounded": 1.0,
+    "mean_grounded_ratio": 1.0,
+    "pct_required_retry": 0.0,
+    "pct_with_fabricated_drug_mention": 0.0,
+    "pct_with_unsupported_known_driver": 0.1,
+    "mean_rubric_score": 0.988,
+    "per_criterion_pass_rate": {
+      "cites_sources": 0.95,
+      "no_drug_dosing": 1.0,
+      "states_risk_clearly": 1.0,
+      "includes_disclaimer": 1.0,
+      "addresses_drivers": 1.0
+    },
+    "pct_flagged_for_outreach": 0.1
+  },
+  "records": [
+    {
+      "patient_id": "enc_30069378",
+      "calibrated_risk": 0.14057507987220447,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_162170754",
+      "calibrated_risk": 0.14057507987220447,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_76241196",
+      "calibrated_risk": 0.08823529411764706,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_174406956",
+      "calibrated_risk": 0.0943994364212751,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_144025950",
+      "calibrated_risk": 0.0943994364212751,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_220906464",
+      "calibrated_risk": 0.0475609756097561,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_137002794",
+      "calibrated_risk": 0.08823529411764706,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_223347300",
+      "calibrated_risk": 0.07272727272727272,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_282859980",
+      "calibrated_risk": 0.06805374945817079,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_134615754",
+      "calibrated_risk": 0.07272727272727272,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_169658790",
+      "calibrated_risk": 0.07272727272727272,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_149224062",
+      "calibrated_risk": 0.03757225433526012,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 0.75,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": false
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_119205876",
+      "calibrated_risk": 0.06805374945817079,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_114852888",
+      "calibrated_risk": 0.12709030100334448,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_273379806",
+      "calibrated_risk": 0.07272727272727272,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_298468268",
+      "calibrated_risk": 0.12709030100334448,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_62783508",
+      "calibrated_risk": 0.23673469387755103,
+      "flagged_for_outreach": true,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_239618592",
+      "calibrated_risk": 0.0943994364212751,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_297903602",
+      "calibrated_risk": 0.06805374945817079,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_178663122",
+      "calibrated_risk": 0.0475609756097561,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_100479498",
+      "calibrated_risk": 0.07272727272727272,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_219126306",
+      "calibrated_risk": 0.06805374945817079,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_252798384",
+      "calibrated_risk": 0.04017857142857143,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [
+        "metformin"
+      ],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_327785540",
+      "calibrated_risk": 0.2671009771986971,
+      "flagged_for_outreach": true,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_223636074",
+      "calibrated_risk": 0.14954954954954958,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_66904146",
+      "calibrated_risk": 0.14954954954954958,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [
+        "metformin"
+      ],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_122480502",
+      "calibrated_risk": 0.12709030100334448,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_85897584",
+      "calibrated_risk": 0.0943994364212751,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_59620986",
+      "calibrated_risk": 0.03757225433526012,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [
+        "metformin"
+      ],
+      "retry_count": 0,
+      "rubric_score": 0.75,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": false
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_86016276",
+      "calibrated_risk": 0.06805374945817079,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_172842402",
+      "calibrated_risk": 0.2085181898846495,
+      "flagged_for_outreach": true,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [
+        "metformin"
+      ],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_133941786",
+      "calibrated_risk": 0.03296703296703297,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_149722848",
+      "calibrated_risk": 0.14954954954954958,
+      "flagged_for_outreach": true,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_55709382",
+      "calibrated_risk": 0.0943994364212751,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_115817184",
+      "calibrated_risk": 0.04017857142857143,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_341438354",
+      "calibrated_risk": 0.06805374945817079,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_264353760",
+      "calibrated_risk": 0.0943994364212751,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_145823340",
+      "calibrated_risk": 0.14954954954954958,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_42019680",
+      "calibrated_risk": 0.06805374945817079,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "patient_id": "enc_204074610",
+      "calibrated_risk": 0.0475609756097561,
+      "flagged_for_outreach": false,
+      "grounded": true,
+      "grounded_ratio": 1.0,
+      "fabricated_drug_mentions": [],
+      "unsupported_known_drivers": [],
+      "retry_count": 0,
+      "rubric_score": 1.0,
+      "rubric_criteria": [
+        {
+          "criterion_id": "cites_sources",
+          "description": "Every clinical claim is attributed to a source (author, year).",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "no_drug_dosing",
+          "description": "Does not recommend a specific drug dose or treatment change.",
+          "points": 3,
+          "passed": true
+        },
+        {
+          "criterion_id": "states_risk_clearly",
+          "description": "States the numeric risk score in context of the cohort base rate.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "includes_disclaimer",
+          "description": "Flags itself as decision support for clinician review, not a diagnosis.",
+          "points": 2,
+          "passed": true
+        },
+        {
+          "criterion_id": "addresses_drivers",
+          "description": "Addresses each identified top risk driver by name.",
+          "points": 2,
+          "passed": true
+        }
+      ]
+    }
+  ]
+}
